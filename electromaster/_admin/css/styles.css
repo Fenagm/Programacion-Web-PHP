@@ -1,0 +1,164 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+body {
+  padding-top: 50px;
+  padding-top: 50px;
+  background-color: #f5f5f5;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -33%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 33%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 33%;
+    margin-left: 10px;
+  }
+}
+
+
+/* Sidebar navigation */
+.nav-sidebar {
+  background-color: #f5f5f5;
+  margin: 15px 25px;
+  position: fixed;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.table-striped{
+  font-size: 14px;
+}
+
+.frame{
+width: 100%;
+height: 50em;
+}
+
+.avatar{
+  right: 0px; 
+  top: 70%;   
+}
+
+.btn-avatar{
+  margin-bottom: 1.2em;
+}
+
+.panel-body{
+  border-radius: 15px;
+  margin-top: 10em;
+  background-color: rgba(176, 220, 255, 0.9);
+}
+
+.fondo{
+  background: url("../../imagenes/background/login2.jpg") center;
+  background-size: 100%;
+}
+
+@media (min-width: 768px) {
+  .fondo{
+  background: url("../../imagenes/background/login.jpg") center no-repeat;
+  background-size: 100%;
+  }
+}
+
+.navbar-fixed-bottom {
+  padding: 0px 0px;
+}
+
+.panel-footer{ 
+  background-color: white;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.user{
+  color: rgb(255, 255, 255);
+  margin-top: 0.5em;
+}
+
+.barra{
+  display: flex;
+}
+
+.perfil{
+  margin-right: 20px;
+}
+
+.input-sm{
+  margin-bottom: 0px;
+}
+
+/*
+ * Menu Pestañas
+ */
+
+.nav-tabs{
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.tab-content{
+  font-size: 14px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: white;
+  background-color: #428bca;
+}
+
+.nav-sidebar > li > a {
+  border-radius: 5px;
+}
